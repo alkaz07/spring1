@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 @Component("park1")
 public class Park {
     @Autowired
+    @Qualifier("watchmanB")
     Watchman watchman;
 
 
